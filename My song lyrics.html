@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)http://127.0.0.1:5500/website/lyrics.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>My song lyrics</title>
+    </head>    
+    <body>    
+        <h1>Take On Me</h1>
+        <h4>Song by A-ha</h4> 
+        <hr> 
+        <br>
+        <pre>    We're talking away
+    I don't know what I'm to say
+    I'll say it anyway
+    Today is another day to find you
+    Shyin' away
+    Oh, I'll be comin' for your love, okay
+
+    Take on me
+    (Take on me)
+    Take me on
+    (Take on me)
+    I'll be gone
+    In a day or two
+
+    So needless to say
+    I'm odds and ends
+    But I'll be stumblin' away
+    Slowly learnin' that life is okay
+    Say after me
+    It's no better to be safe than sorry
+
+    Take on me
+    (Take on me)
+    Take me on
+    (Take on me)
+    I'll be gone
+    In a day or two
+
+    All the things that you say, yeah
+    Is it life or just to play my worries away?
+    You're all the things I've got to remember
+    You're shyin' away
+    I'll be comin' for you anyway
+
+    Take on me
+    (Take on me)
+    Take me on
+    (Take on me)
+    I'll be gone
+    In a day
+    (Take on me)
+    (Take on me)
+    (Take me on)
+    (Take on me)
+
+    I'll be gone
+    (Take on me)
+    In a day
+    (Take me on)
+    (Take on me)
+    (Take on me)
+    (Take on me)
+    (Take me on)
+    (Take on me)
+        </pre>
+    <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+    
+        </body></html>
